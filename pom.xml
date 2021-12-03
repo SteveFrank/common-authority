@@ -78,7 +78,7 @@
         <!--私有镜像仓库-->
         <docker.registry>127.0.0.1:5000</docker.registry>
         <!--镜像前缀-->
-        <docker.image.prefix>pinda</docker.image.prefix>
+        <docker.image.prefix>smart-common-authority</docker.image.prefix>
 
     </properties>
 
