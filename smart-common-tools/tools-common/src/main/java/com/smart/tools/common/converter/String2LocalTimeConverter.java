@@ -1,6 +1,6 @@
 package com.smart.tools.common.converter;
 
-import com.smart.common.tools.core.utils.DateUtils;
+import com.smart.tools.core.utils.DateUtils;
 import org.springframework.core.convert.converter.Converter;
 
 import java.time.LocalTime;

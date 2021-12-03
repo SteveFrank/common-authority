@@ -1,7 +1,7 @@
 package com.smart.tools.common.constant;
 
 import cn.hutool.core.util.StrUtil;
-import com.smart.common.tools.core.utils.StrPool;
+import com.smart.tools.core.utils.StrPool;
 
 /**
  * 用于同一管理和生成缓存的region和key， 避免多个项目使用的key重复

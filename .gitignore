@@ -4,3 +4,4 @@ common-authority-parent/target
 smart-common-tools/target
 smart-common-tools/tools-core/target
 smart-common-tools/tools-common/target
+smart-common-tools/tools-databases/target

@@ -1,7 +1,7 @@
 package com.smart.tools.common.enums;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.smart.common.tools.core.base.BaseEnum;
+import com.smart.tools.core.base.BaseEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
