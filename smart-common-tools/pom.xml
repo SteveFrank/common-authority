@@ -21,6 +21,7 @@
         <module>tools-dozer</module>
         <module>tools-j2cache</module>
         <module>tools-jwt</module>
+        <module>tools-log</module>
     </modules>
 
     <properties>
