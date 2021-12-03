@@ -102,6 +102,14 @@
                 <artifactId>spring-boot-starter-undertow</artifactId>
                 <version>${spring.boot.version}</version>
             </dependency>
+            <!-- 必须有这个jar 才能提示 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring.boot.version}</version>
+                <optional>true</optional>
+                <scope>compile</scope>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
