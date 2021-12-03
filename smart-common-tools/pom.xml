@@ -22,6 +22,7 @@
         <module>tools-j2cache</module>
         <module>tools-jwt</module>
         <module>tools-log</module>
+        <module>tools-swagger2</module>
     </modules>
 
     <properties>
