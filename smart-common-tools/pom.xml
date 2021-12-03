@@ -20,6 +20,7 @@
         <module>tools-databases</module>
         <module>tools-dozer</module>
         <module>tools-j2cache</module>
+        <module>tools-jwt</module>
     </modules>
 
     <properties>
