@@ -1,7 +1,7 @@
 package net.oschina.j2cache.support.redis;
 
 import net.oschina.j2cache.*;
-import net.oschina.j2cache.cache.support.util.SpringUtil;
+import net.oschina.j2cache.support.util.SpringUtil;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import java.io.Serializable;
