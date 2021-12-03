@@ -1,4 +1,5 @@
 .idea
-authority-apps/targets
-common-authority-parent/targets
-smart-common-tools/targets
+authority-apps/target
+common-authority-parent/target
+smart-common-tools/target
+smart-common-tools/tools-core/target

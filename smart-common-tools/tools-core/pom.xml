@@ -3,19 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>common-authority</artifactId>
-        <groupId>com.smart.common</groupId>
+        <artifactId>smart-common-tools</artifactId>
+        <groupId>com.smart.common.tools</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.smart.common.tools</groupId>
-    <artifactId>smart-common-tools</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <modules>
-        <module>tools-core</module>
-    </modules>
+    <groupId>com.smart.common.tools.core</groupId>
+    <artifactId>tools-core</artifactId>
+    <description>工具包核心模块</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
