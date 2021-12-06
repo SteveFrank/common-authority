@@ -1,7 +1,8 @@
 package net.oschina.j2cache.autoconfigure;
 
-import net.oschina.j2cache.cache.support.util.J2CacheSerializer;
+
 import net.oschina.j2cache.redis.RedisUtils;
+import net.oschina.j2cache.support.util.J2CacheSerializer;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

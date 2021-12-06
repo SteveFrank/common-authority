@@ -46,7 +46,7 @@ public class SysLogAspect {
     /***
      * 定义controller切入点拦截规则，拦截SysLog注解的方法
      */
-    @Pointcut("@annotation(com.itheima.pinda.log.annotation.SysLog)")
+    @Pointcut("@annotation(com.smart.tools.log.annotation.SysLog)")
     public void sysLogAspect() {
 
     }

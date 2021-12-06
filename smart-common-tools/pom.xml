@@ -23,6 +23,9 @@
         <module>tools-jwt</module>
         <module>tools-log</module>
         <module>tools-swagger2</module>
+        <module>tools-validator</module>
+        <module>tools-xss</module>
+        <module>tools-user</module>
     </modules>
 
     <properties>

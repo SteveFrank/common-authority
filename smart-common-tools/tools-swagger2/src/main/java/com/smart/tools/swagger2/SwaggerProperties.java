@@ -68,7 +68,7 @@ public class SwaggerProperties {
     /**
      * swagger会解析的包路径
      **/
-    private String basePackage = "com.itheima.pinda";
+    private String basePackage = "com.smart.apps";
 
     /**
      * swagger会解析的url规则
