@@ -372,18 +372,18 @@
                 <version>${jjwt.version}</version>
             </dependency>
 
-            <!-- 腾讯云add  -->
-            <dependency>
-                <groupId>com.github.qcloudsms</groupId>
-                <artifactId>qcloudsms</artifactId>
-                <version>${qcloudsms.version}</version>
-            </dependency>
-            <!-- 百度 -->
-            <dependency>
-                <groupId>com.baidubce</groupId>
-                <artifactId>bce-java-sdk</artifactId>
-                <version>${bce-java-sdk.version}</version>
-            </dependency>
+<!--            &lt;!&ndash; 腾讯云add  &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>com.github.qcloudsms</groupId>-->
+<!--                <artifactId>qcloudsms</artifactId>-->
+<!--                <version>${qcloudsms.version}</version>-->
+<!--            </dependency>-->
+<!--            &lt;!&ndash; 百度 &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>com.baidubce</groupId>-->
+<!--                <artifactId>bce-java-sdk</artifactId>-->
+<!--                <version>${bce-java-sdk.version}</version>-->
+<!--            </dependency>-->
 
             <!-- jackson 序列化 -->
             <dependency>
@@ -399,16 +399,16 @@
                 <scope>compile</scope>
             </dependency>
 
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-server</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server-ui</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>de.codecentric</groupId>-->
+<!--                <artifactId>spring-boot-admin-starter-server</artifactId>-->
+<!--                <version>${spring-boot-admin.version}</version>-->
+<!--            </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>de.codecentric</groupId>-->
+<!--                <artifactId>spring-boot-admin-server-ui</artifactId>-->
+<!--                <version>${spring-boot-admin.version}</version>-->
+<!--            </dependency>-->
 
             <dependency>
                 <groupId>org.owasp.antisamy</groupId>
