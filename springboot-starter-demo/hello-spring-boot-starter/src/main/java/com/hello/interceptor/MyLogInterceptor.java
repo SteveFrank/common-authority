@@ -21,12 +21,12 @@ public class MyLogInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
-        // 获取方法
+        // 获得被拦截的方法对象
         Method method = handlerMethod.getMethod();
-        // 获取注解
-        MyLog myLog = handlerMethod.getMethodAnnotation(MyLog.class);
-        if (myLog != null) {
-            // 方法上加上了MyLog注解，需要进行日志记录
+        // 获得方法上的注解
+        MyLog myLog = method.getAnnotation(MyLog.class);
+        if(myLog != null){
+            //方法上加了MyLog注解，需要进行日志记录
             long startTime = System.currentTimeMillis();
             startTimeThreadLocal.set(startTime);
         }
